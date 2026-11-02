@@ -50,5 +50,4 @@ jobs:
           cat ./keys/task2/key.pub | grep $generated_key
 
       - name: Final Step
-        env:
         run: echo 'Success'
